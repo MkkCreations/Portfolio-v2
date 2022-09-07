@@ -1,10 +1,7 @@
 const express = require('express');
-/* const ContactControl = require('./contactControl'); */
 
 const router = express.Router();
 
-
-/* router.post('/', ContactControl.store); */
 
 router.post('/', (req, res)=>{
     req.getConnection((err, conn)=>{
