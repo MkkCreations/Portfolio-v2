@@ -2,9 +2,7 @@ const express = require('express');
 const myconnection = require('express-myconnection');
 const mysql2 = require('mysql2');
 const cors = require('cors');
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
-import morgan from "morgan";
+const path = require('path');
 
 const router = require('./routes');
 
@@ -32,11 +30,9 @@ app.use(cors());
 app.use(myconnection(mysql2, dbOptions, 'single'));
 app.use(express.json());
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-app.use(morgan("dev"));
-app.use(express.urlencoded({ extended: false }));
 
-app.use(express.static(join(__dirname, "../client/build/index.html")));
+
+app.use(express.static(path.join(__dirname, '../client/build')));
 
 // routes -------------------------------------------
 
