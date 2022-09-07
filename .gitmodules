@@ -1,4 +1,0 @@
-[submodule "client"]
-	path = client
-	url = https://git.heroku.com/portfolio-moha-2.git
-	branch = master
