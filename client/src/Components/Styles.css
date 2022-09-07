@@ -215,7 +215,6 @@ li.active  .nav-link {
     width: 80%;
     min-width: calc(20% + 80px);
     height: 20vh;
-    /* background-color: #7899a58c; */
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(15, 169, 87, 0.493);
