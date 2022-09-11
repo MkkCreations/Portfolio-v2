@@ -14,14 +14,13 @@ const Contact = ({contact, setContact}) => {
   
   let {name, email, number, message} = contact;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
 
     if (name === '' || email === '' || number === '' || message === '') {
       alert('Rellene todos los campos');
       return
     }
-    
     
     const requestInit = {
       method: 'POST',
@@ -53,9 +52,25 @@ const Contact = ({contact, setContact}) => {
       <section>
         <div>
           <p>Click to copy</p>
-          <button type='button' id='btnemail' className='btn-clipboard'  data-bs-original-title="Copy to clipboard" aria-describedby='tooltip779750' onClick={() =>navigator.clipboard.writeText('khaffoum@gmail.com')} ><b>Email:</b> khaffoum@gmail.com </button>
+          <button 
+            type='button' 
+            id='btnemail' 
+            className='btn-clipboard'  
+            data-bs-original-title="Copy to clipboard" 
+            aria-describedby='tooltip779750' 
+            onClick={() =>navigator.clipboard.writeText('khaffoum@gmail.com')} >
+              <b>Email:</b> khaffoum@gmail.com 
+          </button>
       
-          <button type='button' id='btnemail' className='btn-clipboard'  data-bs-original-title="Copy to clipboard" aria-describedby='tooltip779750' onClick={() => navigator.clipboard.writeText('+33 641 97 45 07')} ><b>Phone:</b> +33 641 97 45 07 </button>
+          <button 
+            type='button' 
+            id='btnemail' 
+            className='btn-clipboard'  
+            data-bs-original-title="Copy to clipboard" 
+            aria-describedby='tooltip779750' 
+            onClick={() => navigator.clipboard.writeText('+33 641 97 45 07')} >
+              <b>Phone:</b> +33 641 97 45 07 
+          </button>
         </div>
         
         
