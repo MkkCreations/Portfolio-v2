@@ -26,13 +26,14 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://islamsalat.com/' target='_blank' rel="noreferrer">
+                href='https://weather-moha.herokuapp.com/' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>Weather API</h3>
                 <div>
                     <p>
                         Weather app whitch gets your location by your IP Address trough an API fetch to ( IPinfo.io ) and then with the location is requested to an other API ( API weather ) and gives us all the weather information.
+                        And I added some loaders ( spinner ) to show before the data is displayed.
                     </p>
                 </div>
                 <p>React (API/fetch) IP</p>
