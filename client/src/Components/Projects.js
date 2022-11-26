@@ -43,7 +43,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://khaffoum.com/inversiones/index.html' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortfolioWeb/inversiones/index.html' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>Tools for Investment</h3>
@@ -76,7 +76,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://khaffoum.com/webCars/index.html' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortfolioWeb/webCars/index.html' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>Web News</h3>
@@ -109,7 +109,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://khaffoum.com/' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortfolioWeb/' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>First portfolio</h3>
