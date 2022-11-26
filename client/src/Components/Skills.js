@@ -142,7 +142,7 @@ class Skills extends React.Component {
                     <img src="https://www.apachefriends.org/images/xampp-logo-ac950edf.svg" alt=""/>
                     <p className="title">XAMPP</p>
                     <p className="content">
-                        - Create a local server
+                        - Create a local server 
                         <br/>
                         - Connect with DataBase
                         <br/>
