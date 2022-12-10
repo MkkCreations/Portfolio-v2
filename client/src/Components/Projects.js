@@ -26,6 +26,23 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
+                href='https://gestion-des-notes-1eb49.web.app' target='_blank' rel="noreferrer">
+            </a>
+            <article className='projectarticle'>
+                <h3>Qualifications Management</h3>
+                <div>
+                    <p>
+                        This project I've made it in order to help my classmates to manage their qualifications, because every subject has a diferent coefficient and that makes difficult to calculate the final note.
+                        To make it more personale I've created a loging and a backend to storage the data, and to make it possible i used Firebase, to Authenticate, Storage and Hoste the web.
+                    </p>
+                </div>
+                <p>ReactJs Firebase(Loging, Register, DataBase)</p>
+                
+            </article>
+        </section>
+        <section className='projectsection'>
+            <a 
+                className='projectfigure' 
                 href='https://weather-moha.herokuapp.com/' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>

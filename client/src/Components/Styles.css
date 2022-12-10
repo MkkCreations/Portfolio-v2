@@ -324,21 +324,24 @@ li.active  .nav-link {
     font-weight: 700;
 }
 .divcontainer2 .projectsection:nth-of-type(2) .projectfigure{
-    background-image: url('/src/samples/weatherAPI.png');
+    background-image: url('../samples/gestioDesNotes.png');
 }
 .divcontainer2 .projectsection:nth-of-type(3) .projectfigure{
-    background-image: url('/src/samples/capturainversiones.png');
+    background-image: url('/src/samples/weatherAPI.png');
 }
 .divcontainer2 .projectsection:nth-of-type(4) .projectfigure{
-    background-image: url('/src/samples/CrudTasks.png');
+    background-image: url('/src/samples/capturainversiones.png');
 }
 .divcontainer2 .projectsection:nth-of-type(5) .projectfigure{
-    background-image: url('/src/samples/capturawebcars.png');
+    background-image: url('/src/samples/CrudTasks.png');
 }
 .divcontainer2 .projectsection:nth-of-type(6) .projectfigure{
-    background-image: url('/src/samples/ChatSocketio.png');
+    background-image: url('/src/samples/capturawebcars.png');
 }
 .divcontainer2 .projectsection:nth-of-type(7) .projectfigure{
+    background-image: url('/src/samples/ChatSocketio.png');
+}
+.divcontainer2 .projectsection:nth-of-type(8) .projectfigure{
     background-image: url('/src/samples/firstPortfolio.png');
 }
 .divcontainer2 .projectsection .projectfigure:hover{

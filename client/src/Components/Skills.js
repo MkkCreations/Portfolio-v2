@@ -49,6 +49,21 @@ class Skills extends React.Component {
                     </p>
                 </div>
                 <div className="container">
+                    <img src="https://img.icons8.com/color/200/000000/typescript--v1.png" alt=""/>
+                    <p className="title">TypeScript</p>
+                    <p className="content">
+                        - DOM
+                        <br/>
+                        - All type of functions
+                        <br/>
+                        - Array
+                        <br/>
+                        - API fetch
+                        <br/>
+                        - OOP
+                    </p>
+                </div>
+                <div className="container">
                     <img src="https://img.icons8.com/color/200/000000/react-native.png" alt=""/>
                     <p className="title">React</p>
                     <p className="content">
@@ -114,6 +129,13 @@ class Skills extends React.Component {
                         - Merge
                         <br/>
                         - Remote
+                    </p>
+                </div>
+                <div className="container">
+                    <img src="https://img.icons8.com/color/200/000000/github.png" alt=""/>
+                    <p className="title">GitHub</p>
+                    <p className="content">
+                        <a href='https://github.com/MkkCreations'>https://github.com/MkkCreations</a>
                     </p>
                 </div>
                 <div className="container">
