@@ -9,7 +9,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://islamsalat.com/' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortafolioWeb-v1.2/prayApi/index.html' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>Prayer Times API</h3>
@@ -60,7 +60,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://mkkcreations.github.io/PortfolioWeb/inversiones/index.html' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortafolioWeb-v1.2/inversiones/index.html' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>Tools for Investment</h3>
@@ -76,7 +76,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://crud-api-mysql-nodejs.herokuapp.com/' target='_blank' rel="noreferrer">
+                href='https://crud-production-0936.up.railway.app' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>CRUD Tasks</h3>
@@ -93,7 +93,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://mkkcreations.github.io/PortfolioWeb/webCars/index.html' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortafolioWeb-v1.2/webCars/index.html' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>Web News</h3>
@@ -126,7 +126,7 @@ class Projects extends React.Component {
         <section className='projectsection'>
             <a 
                 className='projectfigure' 
-                href='https://mkkcreations.github.io/PortfolioWeb/' target='_blank' rel="noreferrer">
+                href='https://mkkcreations.github.io/PortafolioWeb-v1.2/' target='_blank' rel="noreferrer">
             </a>
             <article className='projectarticle'>
                 <h3>First portfolio</h3>

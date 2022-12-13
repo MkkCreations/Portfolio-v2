@@ -27,7 +27,7 @@ const Contact = ({contact, setContact}) => {
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(contact)
     }
-    fetch('https://portfolio-moha.herokuapp.com/api', requestInit)
+    fetch('https://portfolio-v2-production-b10f.up.railway.app/api', requestInit)
     .then(res => res.text())
     .then(res => console.log(res))
 
