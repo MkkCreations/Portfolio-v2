@@ -10,6 +10,32 @@
 h1, h2, h3{
     font-family: Lato;
 }
+
+#loader {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1930;
+    overflow: hidden ;
+}
+
+#loader #conter {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: aliceblue;
+}
+
+#loader #box p {
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background-color: #048b8b;
+}
+
 #navbar {
     background-color: #0b1930;
     padding-left: 40px;
@@ -25,7 +51,7 @@ h1, h2, h3{
     background-clip: text;
 }
 .navbar-brand:focus {
-    background: #048b8b;
+    background: rgb(4, 139, 139);
     color: transparent;
     background-clip: text;
 }
@@ -48,10 +74,14 @@ li.active  .nav-link {
 }
 
 .navbar-toggler {
-    border-color: #048b8b;
-    background-color: #048b8b;
+    border: none;
+    /* border-color: #048b8b; */
+    /* background-color: #048b8b74; */
 }
-
+.navbar-toggler-icon {
+    width: 35px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(4, 139,139)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
 /* -------------------------------------- */
 #lateral {
@@ -344,6 +374,9 @@ li.active  .nav-link {
 .divcontainer2 .projectsection:nth-of-type(8) .projectfigure{
     background-image: url('/src/samples/firstPortfolio.png');
 }
+.divcontainer2 .projectsection:nth-of-type(9) .projectfigure{
+    background-image: url('/src/samples/game1.png');
+}
 .divcontainer2 .projectsection .projectfigure:hover{
     filter: opacity(1);
     transition: all 0.5s ease;
@@ -439,11 +472,6 @@ li.active  .nav-link {
     color: #152f58;
     font-weight: 600;
 }
-
-
-
-
-
 
 
 

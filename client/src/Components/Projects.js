@@ -139,6 +139,22 @@ class Projects extends React.Component {
                 
             </article>
         </section>
+        <section className='projectsection'>
+            <a 
+                className='projectfigure' 
+                href='https://mkkcreations.github.io/Game-1/' target='_blank' rel="noreferrer">
+            </a>
+            <article className='projectarticle'>
+                <h3>Game</h3>
+                <div>
+                    <p>
+                        Game created with "canvas" and JS Vanilla. In the game you must eat the small squares with the arrows on the keyboard you can drive the main square and must avoid touching the walls of the maze, as you eat you get bigger.
+                    </p>
+                </div>
+                <p>HTML SCSS JS</p>
+                
+            </article>
+        </section>
       </div>
     );
   }
